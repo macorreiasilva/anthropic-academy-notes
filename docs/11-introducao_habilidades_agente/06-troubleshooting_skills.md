@@ -1,7 +1,5 @@
 # Habilidades de resolução de problemas
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 A aula explica como fazer **troubleshooting de skills no Claude Code** quando elas não funcionam como esperado.

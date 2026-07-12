@@ -1,0 +1,18 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training day with 3500+ calorie intake and carbohydrate loading for endurance performance",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3500+ calories across all meals and snacks",
+      "Carbohydrates comprise at least 60% of total calories to support endurance training",
+      "Includes hydration strategy with specific fluid intake recommendations",
+      "All meals and snacks comply with vegetarian and nut-free restrictions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3500+ calories with emphasis on carbohydrate loading and hydration strategies"
+  }
+]

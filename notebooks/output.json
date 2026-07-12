@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training\n\nHere is a one-day meal plan for an athlete aiming to complete marathon training with optimal carbohydrate loading:\n\n* **Calorie Target:** Approximately 3500 calories\n* **Macronutrient Breakdown:** Protein (130g), Fat (95g), Carbs (480g)\n\n## Meal Plan:\n\n* **Breakfast (6:30 AM):** Oatmeal (100g dry weight) with banana (150g), sunflower seeds (20g), and honey (20g). Low-fat milk (240ml).\n  * Protein: 15g, Fat: 8g, Carbs: 95g\n\n* **Pre-Run Snack (8:00 AM):** White bread (80g) with hummus (40g) and tomato slices (50g). Orange juice (250ml).\n  * Protein: 8g, Fat: 5g, Carbs: 70g\n\n* **Post-Run Recovery Meal (10:30 AM):** Vegetarian pasta with marinara sauce (250g cooked pasta, 150ml sauce), lentils (100g cooked), and olive oil (15ml). Side salad with mixed greens (100g) and balsamic vinegar (15ml).\n  * Protein: 35g, Fat: 18g, Carbs: 120g\n\n* **Lunch (1:00 PM):** Brown rice (150g cooked) with chickpea curry (200g chickpeas cooked in sauce with vegetables: onion 80g, bell pepper 70g, carrot 60g, coconut milk 100ml). Whole wheat bread (60g).\n  * Protein: 18g, Fat: 12g, Carbs: 95g\n\n* **Afternoon Snack (4:00 PM):** Rice cakes (50g) with peanut butter alternative (tahini, 30g) and jam (20g). Dried mango (80g).\n  * Protein: 10g, Fat: 15g, Carbs: 85g\n\n* **Dinner (7:00 PM):** Baked tofu (180g) with sweet potato (250g), steamed broccoli (150g), and olive oil drizzle (10ml). Quinoa (80g cooked).\n  * Protein: 26g, Fat: 18g, Carbs: 95g\n\n* **Evening Snack (9:00 PM):** Greek yogurt (200g, low-fat) with granola (40g) and blueberries (80g).\n  * Protein: 18g, Fat: 5g, Carbs: 45g\n\nThis meal plan prioritizes complex carbohydrates and plant-based proteins to fuel endurance performance while respecting vegetarian and nut-free restrictions. Strategic timing around training maximizes glycogen storage and recovery.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "72 kg",
+        "goal": "Marathon training day with 3500+ calorie intake and carbohydrate loading for endurance performance",
+        "restrictions": "Vegetarian, no nuts"
+      },
+      "solution_criteria": [
+        "Meal plan totals 3500+ calories across all meals and snacks",
+        "Carbohydrates comprise at least 60% of total calories to support endurance training",
+        "Includes hydration strategy with specific fluid intake recommendations",
+        "All meals and snacks comply with vegetarian and nut-free restrictions"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3500+ calories with emphasis on carbohydrate loading and hydration strategies"
+    },
+    "score": 5,
+    "reasoning": "The solution successfully meets all three mandatory requirements by providing daily caloric total, detailed macronutrient breakdown, and meals with exact foods, portions, and timing. It also fully complies with vegetarian and nut-free restrictions. However, it fails to meet two of the four secondary criteria: (1) it lacks any hydration strategy with specific fluid intake recommendations, which is explicitly required, and (2) carbohydrates comprise 54.9% of calories rather than the required 60% minimum. The absence of hydration guidance is particularly problematic for a marathon training meal plan. These deficiencies prevent a higher score despite strong execution on mandatory requirements."
+  }
+]

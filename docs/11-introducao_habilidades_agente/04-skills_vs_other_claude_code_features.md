@@ -1,7 +1,5 @@
 # Skills versus outras funcionalidades do Claude Code
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 A aula compara **Skills** com outros recursos do Claude Code: `CLAUDE.md`, subagents, hooks e MCP servers.

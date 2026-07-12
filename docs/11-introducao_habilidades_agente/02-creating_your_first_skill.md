@@ -1,7 +1,5 @@
 # Criando sua primeira skill
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 A aula explica como **criar a primeira skill no Claude Code** e como o Claude descobre, carrega e usa essas skills.

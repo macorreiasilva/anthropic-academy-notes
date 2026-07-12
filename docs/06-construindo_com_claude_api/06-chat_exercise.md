@@ -1,4 +1,5 @@
 # Exercício de Chat Bot
+
 ### Crie um chatbot usando as três funções auxiliares que acabamos de preparar.
 1. Solicite ao usuário que insira algo usando a função integrada "input"
 2. Adicione a entrada a uma lista de mensagens

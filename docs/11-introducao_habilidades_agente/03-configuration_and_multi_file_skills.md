@@ -1,7 +1,5 @@
 # Skills de configuração e gerenciamento de múltiplos arquivos
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 A aula explica como configurar skills mais avançadas no Claude Code, indo além do básico `name` e `description`.

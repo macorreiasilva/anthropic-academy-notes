@@ -24,3 +24,4 @@ Repositório com meus estudos sobre Claude, API da Anthropic, prompt engineering
 ## Segurança
 
 Este repositório não contém API keys. Use um arquivo `.env` local baseado no `.env.example`.
+

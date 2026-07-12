@@ -1,7 +1,5 @@
 # O que são skills?
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 A aula explica o que são **Skills no Claude Code**: pastas com instruções reutilizáveis que ajudam o Claude a executar tarefas específicas com mais precisão.

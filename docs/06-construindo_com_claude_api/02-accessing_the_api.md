@@ -1,7 +1,5 @@
 # Acessando a API
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 O conteúdo explica o **fluxo completo de uma chamada à API do Claude**, desde o momento em que o usuário envia uma pergunta no aplicativo até a resposta gerada pelo modelo aparecer na interface.

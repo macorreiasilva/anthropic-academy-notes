@@ -1,7 +1,5 @@
 # Compartilhando habilidades
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 A aula explica como **compartilhar skills no Claude Code** e como elas se comportam em diferentes contextos: repositórios Git, plugins, ambientes enterprise e subagents.

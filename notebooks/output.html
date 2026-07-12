@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prompt Evaluation Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            .header {
+                background-color: #f0f0f0;
+                padding: 20px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .summary-stats {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .stat-box {
+                background-color: #fff;
+                border-radius: 5px;
+                padding: 15px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                flex-basis: 30%;
+                min-width: 200px;
+            }
+            .stat-value {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th {
+                background-color: #4a4a4a;
+                color: white;
+                text-align: left;
+                padding: 12px;
+            }
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                vertical-align: top;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .output-cell {
+                white-space: pre-wrap;
+            }
+            .score {
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 3px;
+                display: inline-block;
+            }
+            .score-high {
+                background-color: #c8e6c9;
+                color: #2e7d32;
+            }
+            .score-medium {
+                background-color: #fff9c4;
+                color: #f57f17;
+            }
+            .score-low {
+                background-color: #ffcdd2;
+                color: #c62828;
+            }
+            .output {
+                overflow: auto;
+                white-space: pre-wrap;
+            }
+
+            .output pre {
+                background-color: #f5f5f5;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 10px;
+                margin: 0;
+                font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+                font-size: 14px;
+                line-height: 1.4;
+                color: #333;
+                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+                overflow-x: auto;
+                white-space: pre-wrap; 
+                word-wrap: break-word; 
+            }
+
+            td {
+                width: 20%;
+            }
+            .score-col {
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Prompt Evaluation Report</h1>
+            <div class="summary-stats">
+                <div class="stat-box">
+                    <div>Total Test Cases</div>
+                    <div class="stat-value">1</div>
+                </div>
+                <div class="stat-box">
+                    <div>Average Score</div>
+                    <div class="stat-value">5.0 / 10</div>
+                </div>
+                <div class="stat-box">
+                    <div>Pass Rate (≥7)</div>
+                    <div class="stat-value">0.0%</div>
+                </div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Scenario</th>
+                    <th>Prompt Inputs</th>
+                    <th>Solution Criteria</th>
+                    <th>Output</th>
+                    <th>Score</th>
+                    <th>Reasoning</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            <tr>
+                <td>Testing with a high-endurance athlete (marathon runner) requiring 3500+ calories with emphasis on carbohydrate loading and hydration strategies</td>
+                <td class="prompt-inputs"><strong>height:</strong> 180 cm<br><strong>weight:</strong> 72 kg<br><strong>goal:</strong> Marathon training day with 3500+ calorie intake and carbohydrate loading for endurance performance<br><strong>restrictions:</strong> Vegetarian, no nuts</td>
+                <td class="criteria">• Meal plan totals 3500+ calories across all meals and snacks<br>• Carbohydrates comprise at least 60% of total calories to support endurance training<br>• Includes hydration strategy with specific fluid intake recommendations<br>• All meals and snacks comply with vegetarian and nut-free restrictions</td>
+                <td class="output"><pre># One-Day Meal Plan for Marathon Training
+
+Here is a one-day meal plan for an athlete aiming to complete marathon training with optimal carbohydrate loading:
+
+* **Calorie Target:** Approximately 3500 calories
+* **Macronutrient Breakdown:** Protein (130g), Fat (95g), Carbs (480g)
+
+## Meal Plan:
+
+* **Breakfast (6:30 AM):** Oatmeal (100g dry weight) with banana (150g), sunflower seeds (20g), and honey (20g). Low-fat milk (240ml).
+  * Protein: 15g, Fat: 8g, Carbs: 95g
+
+* **Pre-Run Snack (8:00 AM):** White bread (80g) with hummus (40g) and tomato slices (50g). Orange juice (250ml).
+  * Protein: 8g, Fat: 5g, Carbs: 70g
+
+* **Post-Run Recovery Meal (10:30 AM):** Vegetarian pasta with marinara sauce (250g cooked pasta, 150ml sauce), lentils (100g cooked), and olive oil (15ml). Side salad with mixed greens (100g) and balsamic vinegar (15ml).
+  * Protein: 35g, Fat: 18g, Carbs: 120g
+
+* **Lunch (1:00 PM):** Brown rice (150g cooked) with chickpea curry (200g chickpeas cooked in sauce with vegetables: onion 80g, bell pepper 70g, carrot 60g, coconut milk 100ml). Whole wheat bread (60g).
+  * Protein: 18g, Fat: 12g, Carbs: 95g
+
+* **Afternoon Snack (4:00 PM):** Rice cakes (50g) with peanut butter alternative (tahini, 30g) and jam (20g). Dried mango (80g).
+  * Protein: 10g, Fat: 15g, Carbs: 85g
+
+* **Dinner (7:00 PM):** Baked tofu (180g) with sweet potato (250g), steamed broccoli (150g), and olive oil drizzle (10ml). Quinoa (80g cooked).
+  * Protein: 26g, Fat: 18g, Carbs: 95g
+
+* **Evening Snack (9:00 PM):** Greek yogurt (200g, low-fat) with granola (40g) and blueberries (80g).
+  * Protein: 18g, Fat: 5g, Carbs: 45g
+
+This meal plan prioritizes complex carbohydrates and plant-based proteins to fuel endurance performance while respecting vegetarian and nut-free restrictions. Strategic timing around training maximizes glycogen storage and recovery.</pre></td>
+                <td class="score-col"><span class="score score-low">5</span></td>
+                <td class="reasoning">The solution successfully meets all three mandatory requirements by providing daily caloric total, detailed macronutrient breakdown, and meals with exact foods, portions, and timing. It also fully complies with vegetarian and nut-free restrictions. However, it fails to meet two of the four secondary criteria: (1) it lacks any hydration strategy with specific fluid intake recommendations, which is explicitly required, and (2) carbohydrates comprise 54.9% of calories rather than the required 60% minimum. The absence of hydration guidance is particularly problematic for a marathon training meal plan. These deficiencies prevent a higher score despite strong execution on mandatory requirements.</td>
+            </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

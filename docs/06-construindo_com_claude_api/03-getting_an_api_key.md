@@ -1,7 +1,5 @@
 # Como obter uma chave de API
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 O conteúdo explica como **criar uma API key no Console da Anthropic (**[https://platform.claude.com/dashboard](https://platform.claude.com/dashboard)).

@@ -1,7 +1,5 @@
 # Visão Geral dos Modelos de Claude
 
-# Resumo do conteúdo
-
 ## 1. Ideia central
 
 A ideia principal é entender **quando escolher Claude Opus, Sonnet ou Haiku** com base em três critérios de prova: **capacidade**, **custo** e **latência**.
