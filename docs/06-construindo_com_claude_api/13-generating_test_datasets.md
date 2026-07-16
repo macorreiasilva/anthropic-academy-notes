@@ -1,7 +1,7 @@
 # Geração de conjuntos de dados de teste
 
 ```
-007_prompt_evals.ipynb
+notebooks\007_prompt_evals.ipynb
 ```
 
 ## 1. Ideia central

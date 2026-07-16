@@ -1,7 +1,7 @@
 # Avaliação baseada em código
 
 ```
-10_code_based_grading.ipynb
+notebooks\10_code_based_grading.ipynb
 ```
 
 ## 1. Ideia central

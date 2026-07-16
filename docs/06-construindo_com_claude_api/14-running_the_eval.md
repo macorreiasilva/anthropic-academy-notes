@@ -1,7 +1,7 @@
 # Executando a avaliação
 
 ```
-08_running_the_eval.ipynb
+notebooks\08_running_the_eval.ipynb
 ```
 
 ## 1. Ideia central

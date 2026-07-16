@@ -117,11 +117,11 @@
                 </div>
                 <div class="stat-box">
                     <div>Average Score</div>
-                    <div class="stat-value">5.0 / 10</div>
+                    <div class="stat-value">9.0 / 10</div>
                 </div>
                 <div class="stat-box">
                     <div>Pass Rate (≥7)</div>
-                    <div class="stat-value">0.0%</div>
+                    <div class="stat-value">100.0%</div>
                 </div>
             </div>
         </div>
@@ -140,42 +140,37 @@
             <tbody>
     
             <tr>
-                <td>Testing with a high-endurance athlete (marathon runner) requiring 3500+ calories with emphasis on carbohydrate loading and hydration strategies</td>
-                <td class="prompt-inputs"><strong>height:</strong> 180 cm<br><strong>weight:</strong> 72 kg<br><strong>goal:</strong> Marathon training day with 3500+ calorie intake and carbohydrate loading for endurance performance<br><strong>restrictions:</strong> Vegetarian, no nuts</td>
-                <td class="criteria">• Meal plan totals 3500+ calories across all meals and snacks<br>• Carbohydrates comprise at least 60% of total calories to support endurance training<br>• Includes hydration strategy with specific fluid intake recommendations<br>• All meals and snacks comply with vegetarian and nut-free restrictions</td>
-                <td class="output"><pre># One-Day Meal Plan for Marathon Training
-
-Here is a one-day meal plan for an athlete aiming to complete marathon training with optimal carbohydrate loading:
-
-* **Calorie Target:** Approximately 3500 calories
-* **Macronutrient Breakdown:** Protein (130g), Fat (95g), Carbs (480g)
-
-## Meal Plan:
-
-* **Breakfast (6:30 AM):** Oatmeal (100g dry weight) with banana (150g), sunflower seeds (20g), and honey (20g). Low-fat milk (240ml).
-  * Protein: 15g, Fat: 8g, Carbs: 95g
-
-* **Pre-Run Snack (8:00 AM):** White bread (80g) with hummus (40g) and tomato slices (50g). Orange juice (250ml).
-  * Protein: 8g, Fat: 5g, Carbs: 70g
-
-* **Post-Run Recovery Meal (10:30 AM):** Vegetarian pasta with marinara sauce (250g cooked pasta, 150ml sauce), lentils (100g cooked), and olive oil (15ml). Side salad with mixed greens (100g) and balsamic vinegar (15ml).
-  * Protein: 35g, Fat: 18g, Carbs: 120g
-
-* **Lunch (1:00 PM):** Brown rice (150g cooked) with chickpea curry (200g chickpeas cooked in sauce with vegetables: onion 80g, bell pepper 70g, carrot 60g, coconut milk 100ml). Whole wheat bread (60g).
-  * Protein: 18g, Fat: 12g, Carbs: 95g
-
-* **Afternoon Snack (4:00 PM):** Rice cakes (50g) with peanut butter alternative (tahini, 30g) and jam (20g). Dried mango (80g).
-  * Protein: 10g, Fat: 15g, Carbs: 85g
-
-* **Dinner (7:00 PM):** Baked tofu (180g) with sweet potato (250g), steamed broccoli (150g), and olive oil drizzle (10ml). Quinoa (80g cooked).
-  * Protein: 26g, Fat: 18g, Carbs: 95g
-
-* **Evening Snack (9:00 PM):** Greek yogurt (200g, low-fat) with granola (40g) and blueberries (80g).
-  * Protein: 18g, Fat: 5g, Carbs: 45g
-
-This meal plan prioritizes complex carbohydrates and plant-based proteins to fuel endurance performance while respecting vegetarian and nut-free restrictions. Strategic timing around training maximizes glycogen storage and recovery.</pre></td>
-                <td class="score-col"><span class="score score-low">5</span></td>
-                <td class="reasoning">The solution successfully meets all three mandatory requirements by providing daily caloric total, detailed macronutrient breakdown, and meals with exact foods, portions, and timing. It also fully complies with vegetarian and nut-free restrictions. However, it fails to meet two of the four secondary criteria: (1) it lacks any hydration strategy with specific fluid intake recommendations, which is explicitly required, and (2) carbohydrates comprise 54.9% of calories rather than the required 60% minimum. The absence of hydration guidance is particularly problematic for a marathon training meal plan. These deficiencies prevent a higher score despite strong execution on mandatory requirements.</td>
+                <td>Testing with a multi-disciplinary passage containing overlapping topics from economics, sociology, and environmental science to evaluate whether the prompt can distinguish and extract distinct topics from complex, interconnected subject matter</td>
+                <td class="prompt-inputs"><strong>content:</strong> The relationship between carbon pricing mechanisms and socioeconomic inequality has emerged as a critical area of environmental policy research. While economists argue that cap-and-trade systems efficiently reduce emissions by leveraging market forces, sociologists document how these policies disproportionately burden low-income households through increased energy costs. Furthermore, the implementation of carbon taxes in developed nations has revealed complex feedback loops: reduced industrial emissions in wealthy countries often correlate with offshore manufacturing relocation to developing nations, effectively displacing rather than eliminating environmental degradation. Agricultural productivity studies demonstrate that climate change adaptation strategies, such as drought-resistant crop development and precision irrigation technologies, require substantial capital investment that many smallholder farmers cannot access, thereby exacerbating rural poverty and food security vulnerabilities across developing regions.</td>
+                <td class="criteria">• Extracts all distinct topics without combining related concepts into single entries<br>• Returns output as a valid JSON array of strings<br>• Distinguishes between overlapping interdisciplinary topics (e.g., carbon pricing as separate from socioeconomic inequality)</td>
+                <td class="output"><pre>```json
+[
+  "carbon pricing mechanisms",
+  "socioeconomic inequality",
+  "environmental policy",
+  "cap-and-trade systems",
+  "emissions reduction",
+  "market forces",
+  "low-income households",
+  "energy costs",
+  "carbon taxes",
+  "developed nations",
+  "industrial emissions",
+  "offshore manufacturing",
+  "developing nations",
+  "environmental degradation",
+  "agricultural productivity",
+  "climate change adaptation",
+  "drought-resistant crops",
+  "precision irrigation technologies",
+  "capital investment",
+  "smallholder farmers",
+  "rural poverty",
+  "food security"
+]
+```</pre></td>
+                <td class="score-col"><span class="score score-high">9</span></td>
+                <td class="reasoning">The solution fully satisfies all mandatory requirements: it contains a valid JSON array of strings with only topic names and no commentary, and returns only the JSON array. It meets the secondary criteria by extracting distinct topics and properly distinguishing between overlapping interdisciplinary concepts (carbon pricing separate from socioeconomic inequality, environmental policy as distinct from specific mechanisms). The extraction is thorough and captures the main themes across economics, environmental science, sociology, and agriculture. While there are minor opportunities for additional granularity in topic extraction, the solution demonstrates solid judgment in topic identification and maintains appropriate abstraction levels throughout.</td>
             </tr>
         
             </tbody>

@@ -1,7 +1,7 @@
 # Temperatura
 
 ```
-004_temperatures.ipynb
+notebooks\004_temperatures.ipynb
 ```
 
 ## 1. Ideia central

@@ -1,7 +1,7 @@
 # Conversas com múltiplas interações
 
 ```
-002_muliple_requests_exercise.ipynb
+notebooks\002_muliple_requests_exercise.ipynb
 ```
 
 ## 1. Ideia central

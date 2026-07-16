@@ -1,18 +1,14 @@
 [
   {
     "prompt_inputs": {
-      "height": "180 cm",
-      "weight": "72 kg",
-      "goal": "Marathon training day with 3500+ calorie intake and carbohydrate loading for endurance performance",
-      "restrictions": "Vegetarian, no nuts"
+      "content": "The relationship between carbon pricing mechanisms and socioeconomic inequality has emerged as a critical area of environmental policy research. While economists argue that cap-and-trade systems efficiently reduce emissions by leveraging market forces, sociologists document how these policies disproportionately burden low-income households through increased energy costs. Furthermore, the implementation of carbon taxes in developed nations has revealed complex feedback loops: reduced industrial emissions in wealthy countries often correlate with offshore manufacturing relocation to developing nations, effectively displacing rather than eliminating environmental degradation. Agricultural productivity studies demonstrate that climate change adaptation strategies, such as drought-resistant crop development and precision irrigation technologies, require substantial capital investment that many smallholder farmers cannot access, thereby exacerbating rural poverty and food security vulnerabilities across developing regions."
     },
     "solution_criteria": [
-      "Meal plan totals 3500+ calories across all meals and snacks",
-      "Carbohydrates comprise at least 60% of total calories to support endurance training",
-      "Includes hydration strategy with specific fluid intake recommendations",
-      "All meals and snacks comply with vegetarian and nut-free restrictions"
+      "Extracts all distinct topics without combining related concepts into single entries",
+      "Returns output as a valid JSON array of strings",
+      "Distinguishes between overlapping interdisciplinary topics (e.g., carbon pricing as separate from socioeconomic inequality)"
     ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3500+ calories with emphasis on carbohydrate loading and hydration strategies"
+    "task_description": "\"\n    Extract topics out of a passage of text from scholarly articles into a JSON array of strings\n    ",
+    "scenario": "Testing with a multi-disciplinary passage containing overlapping topics from economics, sociology, and environmental science to evaluate whether the prompt can distinguish and extract distinct topics from complex, interconnected subject matter"
   }
 ]

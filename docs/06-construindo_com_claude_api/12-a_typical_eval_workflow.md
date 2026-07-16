@@ -1,7 +1,7 @@
 # Um fluxo de trabalho de avaliação típico
 
 ```
-006_controlling_output.ipynb
+notebooks\006_controlling_output.ipynb
 ```
 
 ## 1. Ideia central

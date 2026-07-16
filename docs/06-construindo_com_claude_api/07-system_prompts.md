@@ -1,7 +1,7 @@
 # System Prompts
 
 ```
-003_system_prompts.ipynb
+notebooks\003_system_prompts.ipynb
 ```
 
 ## 1. Ideia central

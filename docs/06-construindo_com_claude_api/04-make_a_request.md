@@ -1,7 +1,7 @@
 # Fazer um pedido
 
 ```
-001_requests_exercise.ipynb
+notebooks\001_requests_exercise.ipynb
 ```
 
 ## 1. Ideia central

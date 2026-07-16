@@ -1,7 +1,7 @@
 # Streaming de resposta
 
 ```
-005_streaming.ipynb
+notebooks\005_streaming.ipynb
 ```
 
 ## 1. Ideia central

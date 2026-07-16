@@ -1,7 +1,7 @@
 # Classificação baseada em modelo
 
 ```
-09_model_based_grading.ipynb
+notebooks\09_model_based_grading.ipynb
 ```
 
 ## 1. Ideia central
