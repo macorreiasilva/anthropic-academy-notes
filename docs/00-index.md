@@ -80,7 +80,7 @@
 
 [**34 Apresentando a Geração Aumentada de Recuperação (RAG)**](06-building_with_the_claude_api/34-introducing_retrieval_augmented_generation.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**35 Estratégias de segmentação de texto**](06-building_with_the_claude_api/35-text_chunking-strategies.md)
 
 [**XX **](06-building_with_the_claude_api/.md)
 
