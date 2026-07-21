@@ -84,7 +84,7 @@
 
 [**36 Incorporação de texto**](06-building_with_the_claude_api/36-text_embeddings.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**37 O fluxo completo de RAG**](06-building_with_the_claude_api/37-the_full_rag_flow.md)
 
 [**XX **](06-building_with_the_claude_api/.md)
 
