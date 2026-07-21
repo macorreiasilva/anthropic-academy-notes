@@ -82,6 +82,18 @@
 
 [**35 Estratégias de segmentação de texto**](06-building_with_the_claude_api/35-text_chunking-strategies.md)
 
+[**36 Incorporação de texto**](06-building_with_the_claude_api/36-text_embeddings.md)
+
+[**XX **](06-building_with_the_claude_api/.md)
+
+[**XX **](06-building_with_the_claude_api/.md)
+
+[**XX **](06-building_with_the_claude_api/.md)
+
+[**XX **](06-building_with_the_claude_api/.md)
+
+[**XX **](06-building_with_the_claude_api/.md)
+
 [**XX **](06-building_with_the_claude_api/.md)
 
 [**XX **](06-building_with_the_claude_api/.md)
