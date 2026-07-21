@@ -50,21 +50,35 @@
 
 [**21 Fornecendo exemplos**](06-building_with_the_claude_api/21-providing_examples.md)
 
-### Uso de ferrament
+### Uso de ferramentas com claude
 
 [**22 Introdução ao uso de ferramentas**](06-building_with_the_claude_api/22-introducing_tool_use.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**23 Visão geral do projeto**](06-building_with_the_claude_api/23-project_overview.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**24 Funções da ferramenta**](06-building_with_the_claude_api/24-tool_functions.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**25 Esquemas de ferramentas**](06-building_with_the_claude_api/25-Tool_schemas.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**26 Manipulação de blocos de mensagens**](06-building_with_the_claude_api/26-handling_message_blocks.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**27 Envio de resultados da ferramenta**](06-building_with_the_claude_api/27-sending_tool_results.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**28 Conversas com múltiplas interações usando ferramentas**](06-building_with_the_claude_api/28-multi_turn_conversations_with_tools.md)
+
+[**29 Implementando múltiplas turnos de uso de ferramentas**](06-building_with_the_claude_api/29-implementing_multiple_turns.md)
+
+[**30 Utilizando múltiplas ferramentas**](06-building_with_the_claude_api/30-using_multiple_tools.md)
+
+[**31 Fine-Grained Tool Calling**](06-building_with_the_claude_api/31-fine_grained_tool_calling.md)
+
+[**32 A ferramenta de edição de texto**](06-building_with_the_claude_api/32-the_text_edit_tool.md)
+
+[**33 A ferramenta de busca na web**](06-building_with_the_claude_api/33-the_web_search_tool.md)
+
+### RAG e Busca Agentica
+
+[**34 Apresentando a Geração Aumentada de Recuperação (RAG)**](06-building_with_the_claude_api/34-introducing_retrieval_augmented_generation.md)
 
 [**XX **](06-building_with_the_claude_api/.md)
 
