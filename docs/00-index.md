@@ -86,11 +86,11 @@
 
 [**37 O fluxo completo de RAG**](06-building_with_the_claude_api/37-the_full_rag_flow.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**38 Implementando o fluxo RAG**](06-building_with_the_claude_api/38-implementing_the_rag_flow.md.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**39 Busca lexical BM25**](06-building_with_the_claude_api/39-bm25_lexical_search.md.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**40 Um pipeline RAG de múltiplos índices**](06-building_with_the_claude_api/40-a_multi_index_rag_pipeline.md)
 
 [**XX **](06-building_with_the_claude_api/.md)
 
