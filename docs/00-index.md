@@ -92,9 +92,25 @@
 
 [**40 Um pipeline RAG de múltiplos índices**](06-building_with_the_claude_api/40-a_multi_index_rag_pipeline.md)
 
-[**XX **](06-building_with_the_claude_api/.md)
+### Características de Claude
 
-[**XX **](06-building_with_the_claude_api/.md)
+[**41 Pensamento expandido**](06-building_with_the_claude_api/41-extended_thinking.md)
+
+[**42 Suporte de imagem**](06-building_with_the_claude_api/42-image_support.md)
+
+[**43 Suporte a PDF**](06-building_with_the_claude_api/43-pdf_support.md)
+
+[**44 Citações**](06-building_with_the_claude_api/44-citations.md)
+
+[**45 Cache de prompt**](06-building_with_the_claude_api/45-prompt_caching.md)
+
+[**46 Regras de cache de prompts**](06-building_with_the_claude_api/46-rules_of_prompt_caching.md)
+
+[**47 Cache de prompts em ação**](06-building_with_the_claude_api/47-prompt_caching_in_action.md)
+
+[**48 Execução de código e a API de Arquivos**](06-building_with_the_claude_api/48-code_execution_and_the_files_api.md)
+
+### Protocolo de Contexto do Modelo (MCP)
 
 [**XX **](06-building_with_the_claude_api/.md)
 

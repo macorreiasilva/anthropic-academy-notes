@@ -1,4 +1,4 @@
-# Resumo do conteúdo
+# Busca lexical BM25
 
 ```
 24-bm25_lexical_search.ipynb

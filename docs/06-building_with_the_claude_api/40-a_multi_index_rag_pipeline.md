@@ -1,7 +1,7 @@
-# Resumo do conteúdo
+# Um pipeline RAG de múltiplos índices
 
 ```
-25-a_multi_index_rag_pipeline.ipynb
+notebook\25-a_multi_index_rag_pipeline.ipynb
 ```
 
 ## 1. Ideia central
